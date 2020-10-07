@@ -1,0 +1,5 @@
+./Vulkan_FFT
+vk: error: v3dv_GetPhysicalDeviceProperties2: ignored VkStructureType 1000212000:VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT
+
+WARNING: v3dv is neither a complete nor a conformant Vulkan implementation. Testing use only.
+Segmentation fault

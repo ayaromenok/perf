@@ -1,0 +1,798 @@
+==========
+VULKANINFO
+==========
+
+Vulkan Instance Version: 1.2.135
+
+
+Instance Extensions: count = 18
+===============================
+	VK_EXT_acquire_xlib_display            : extension revision 1
+	VK_EXT_debug_report                    : extension revision 8
+	VK_EXT_debug_utils                     : extension revision 1
+	VK_EXT_direct_mode_display             : extension revision 1
+	VK_EXT_display_surface_counter         : extension revision 1
+	VK_KHR_device_group_creation           : extension revision 1
+	VK_KHR_display                         : extension revision 23
+	VK_KHR_external_fence_capabilities     : extension revision 1
+	VK_KHR_external_memory_capabilities    : extension revision 1
+	VK_KHR_external_semaphore_capabilities : extension revision 1
+	VK_KHR_get_display_properties2         : extension revision 1
+	VK_KHR_get_physical_device_properties2 : extension revision 1
+	VK_KHR_get_surface_capabilities2       : extension revision 1
+	VK_KHR_surface                         : extension revision 25
+	VK_KHR_surface_protected_capabilities  : extension revision 1
+	VK_KHR_wayland_surface                 : extension revision 6
+	VK_KHR_xcb_surface                     : extension revision 6
+	VK_KHR_xlib_surface                    : extension revision 6
+
+Layers: count = 7
+=================
+VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, layer version 1:
+	Layer Extensions: count = 3
+		VK_EXT_debug_report        : extension revision 9
+		VK_EXT_debug_utils         : extension revision 1
+		VK_EXT_validation_features : extension revision 2
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 3
+			VK_EXT_debug_marker     : extension revision 4
+			VK_EXT_tooling_info     : extension revision 1
+			VK_EXT_validation_cache : extension revision 1
+
+VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.135, layer version 2:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
+
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.135, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
+
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.135, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
+
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.135, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
+
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.135, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 0
+
+VK_LAYER_MESA_overlay (Mesa Overlay layer) Vulkan version 1.1.73, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 1
+		GPU id = 0 (Intel(R) HD Graphics 5500 (Broadwell GT2))
+		Layer-Device Extensions: count = 0
+
+Presentable Surfaces:
+=====================
+GPU id : 0 (Intel(R) HD Graphics 5500 (Broadwell GT2)):
+	Surface types: count = 2
+		VK_KHR_xcb_surface
+		VK_KHR_xlib_surface
+	Formats: count = 2
+		SurfaceFormat[0]:
+			format = FORMAT_B8G8R8A8_SRGB
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[1]:
+			format = FORMAT_B8G8R8A8_UNORM
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+	Present Modes: count = 3
+		PRESENT_MODE_IMMEDIATE_KHR
+		PRESENT_MODE_MAILBOX_KHR
+		PRESENT_MODE_FIFO_KHR
+	VkSurfaceCapabilitiesKHR:
+	-------------------------
+		minImageCount       = 3
+		maxImageCount       = 0
+		currentExtent:
+			width  = 256
+			height = 256
+		minImageExtent:
+			width  = 256
+			height = 256
+		maxImageExtent:
+			width  = 256
+			height = 256
+		maxImageArrayLayers = 1
+		supportedTransforms: count = 1
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		currentTransform    = SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		supportedCompositeAlpha: count = 2
+			COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+			COMPOSITE_ALPHA_INHERIT_BIT_KHR
+		supportedUsageFlags: count = 5
+			IMAGE_USAGE_TRANSFER_SRC_BIT
+			IMAGE_USAGE_TRANSFER_DST_BIT
+			IMAGE_USAGE_SAMPLED_BIT
+			IMAGE_USAGE_STORAGE_BIT
+			IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+	VkSurfaceCapabilities2EXT:
+	--------------------------
+		supportedSurfaceCounters: count = 0
+			None
+	VkSurfaceProtectedCapabilitiesKHR:
+	----------------------------------
+		supportsProtected = false
+
+
+
+Device Groups:
+==============
+Group 0:
+	Properties:
+		physicalDevices: count = 1
+			Intel(R) HD Graphics 5500 (Broadwell GT2) (ID: 0)
+		subsetAllocation = 0
+
+	Present Capabilities:
+		Intel(R) HD Graphics 5500 (Broadwell GT2) (ID: 0):
+			Can present images from the following devices: count = 1
+				Intel(R) HD Graphics 5500 (Broadwell GT2) (ID: 0)
+		Present modes: count = 1
+			DEVICE_GROUP_PRESENT_MODE_LOCAL_BIT_KHR
+
+
+Device Properties and Extensions:
+=================================
+GPU0:
+VkPhysicalDeviceProperties:
+---------------------------
+	apiVersion     = 4198529 (1.1.129)
+	driverVersion  = 80097379 (0x4c63063)
+	vendorID       = 0x8086
+	deviceID       = 0x1616
+	deviceType     = PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU
+	deviceName     = Intel(R) HD Graphics 5500 (Broadwell GT2)
+
+VkPhysicalDeviceLimits:
+-----------------------
+	maxImageDimension1D                             = 16384
+	maxImageDimension2D                             = 16384
+	maxImageDimension3D                             = 2048
+	maxImageDimensionCube                           = 16384
+	maxImageArrayLayers                             = 2048
+	maxTexelBufferElements                          = 134217728
+	maxUniformBufferRange                           = 134217728
+	maxStorageBufferRange                           = 1073741824
+	maxPushConstantsSize                            = 128
+	maxMemoryAllocationCount                        = 4294967295
+	maxSamplerAllocationCount                       = 65536
+	bufferImageGranularity                          = 0x00000040
+	sparseAddressSpaceSize                          = 0x00000000
+	maxBoundDescriptorSets                          = 8
+	maxPerStageDescriptorSamplers                   = 65535
+	maxPerStageDescriptorUniformBuffers             = 64
+	maxPerStageDescriptorStorageBuffers             = 65535
+	maxPerStageDescriptorSampledImages              = 128
+	maxPerStageDescriptorStorageImages              = 64
+	maxPerStageDescriptorInputAttachments           = 64
+	maxPerStageResources                            = 231
+	maxDescriptorSetSamplers                        = 393210
+	maxDescriptorSetUniformBuffers                  = 384
+	maxDescriptorSetUniformBuffersDynamic           = 8
+	maxDescriptorSetStorageBuffers                  = 393210
+	maxDescriptorSetStorageBuffersDynamic           = 8
+	maxDescriptorSetSampledImages                   = 768
+	maxDescriptorSetStorageImages                   = 384
+	maxDescriptorSetInputAttachments                = 256
+	maxVertexInputAttributes                        = 28
+	maxVertexInputBindings                          = 28
+	maxVertexInputAttributeOffset                   = 2047
+	maxVertexInputBindingStride                     = 2048
+	maxVertexOutputComponents                       = 128
+	maxTessellationGenerationLevel                  = 64
+	maxTessellationPatchSize                        = 32
+	maxTessellationControlPerVertexInputComponents  = 128
+	maxTessellationControlPerVertexOutputComponents = 128
+	maxTessellationControlPerPatchOutputComponents  = 128
+	maxTessellationControlTotalOutputComponents     = 2048
+	maxTessellationEvaluationInputComponents        = 128
+	maxTessellationEvaluationOutputComponents       = 128
+	maxGeometryShaderInvocations                    = 32
+	maxGeometryInputComponents                      = 64
+	maxGeometryOutputComponents                     = 128
+	maxGeometryOutputVertices                       = 256
+	maxGeometryTotalOutputComponents                = 1024
+	maxFragmentInputComponents                      = 116
+	maxFragmentOutputAttachments                    = 8
+	maxFragmentDualSrcAttachments                   = 1
+	maxFragmentCombinedOutputResources              = 8
+	maxComputeSharedMemorySize                      = 65536
+	maxComputeWorkGroupCount: count = 3
+		65535
+		65535
+		65535
+	maxComputeWorkGroupInvocations                  = 1792
+	maxComputeWorkGroupSize: count = 3
+		1792
+		1792
+		1792
+	subPixelPrecisionBits                           = 8
+	subTexelPrecisionBits                           = 8
+	mipmapPrecisionBits                             = 8
+	maxDrawIndexedIndexValue                        = 4294967295
+	maxDrawIndirectCount                            = 4294967295
+	maxSamplerLodBias                               = 16
+	maxSamplerAnisotropy                            = 16
+	maxViewports                                    = 16
+	maxViewportDimensions: count = 2
+		16384
+		16384
+	viewportBoundsRange: count = 2
+		-32768
+		32767
+	viewportSubPixelBits                            = 13
+	minMemoryMapAlignment                           = 4096
+	minTexelBufferOffsetAlignment                   = 0x00000010
+	minUniformBufferOffsetAlignment                 = 0x00000020
+	minStorageBufferOffsetAlignment                 = 0x00000004
+	minTexelOffset                                  = -8
+	maxTexelOffset                                  = 7
+	minTexelGatherOffset                            = -32
+	maxTexelGatherOffset                            = 31
+	minInterpolationOffset                          = -0.5
+	maxInterpolationOffset                          = 0.4375
+	subPixelInterpolationOffsetBits                 = 4
+	maxFramebufferWidth                             = 16384
+	maxFramebufferHeight                            = 16384
+	maxFramebufferLayers                            = 2048
+	framebufferColorSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	framebufferDepthSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	framebufferStencilSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	framebufferNoAttachmentsSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	maxColorAttachments                             = 8
+	sampledImageColorSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	sampledImageIntegerSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	sampledImageDepthSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	sampledImageStencilSampleCounts: count = 4
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+	storageImageSampleCounts: count = 1
+		SAMPLE_COUNT_1_BIT
+	maxSampleMaskWords                              = 1
+	timestampComputeAndGraphics                     = true
+	timestampPeriod                                 = 80
+	maxClipDistances                                = 8
+	maxCullDistances                                = 8
+	maxCombinedClipAndCullDistances                 = 8
+	discreteQueuePriorities                         = 2
+	pointSizeRange: count = 2
+		0.125
+		255.875
+	lineWidthRange: count = 2
+		0
+		7.99219
+	pointSizeGranularity                            = 0.125
+	lineWidthGranularity                            = 0.0078125
+	strictLines                                     = false
+	standardSampleLocations                         = true
+	optimalBufferCopyOffsetAlignment                = 0x00000080
+	optimalBufferCopyRowPitchAlignment              = 0x00000080
+	nonCoherentAtomSize                             = 0x00000040
+
+VkPhysicalDeviceSparseProperties:
+---------------------------------
+	residencyStandard2DBlockShape            = false
+	residencyStandard2DMultisampleBlockShape = false
+	residencyStandard3DBlockShape            = false
+	residencyAlignedMipSize                  = false
+	residencyNonResidentStrict               = false
+
+VkPhysicalDeviceDepthStencilResolvePropertiesKHR:
+-------------------------------------------------
+	supportedDepthResolveModes: count = 4
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_AVERAGE_BIT
+		RESOLVE_MODE_MIN_BIT
+		RESOLVE_MODE_MAX_BIT
+	supportedStencilResolveModes: count = 3
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_MIN_BIT
+		RESOLVE_MODE_MAX_BIT
+	independentResolveNone = true
+	independentResolve     = true
+
+VkPhysicalDeviceDriverPropertiesKHR:
+------------------------------------
+	driverID           = DRIVER_ID_INTEL_OPEN_SOURCE_MESA
+	driverName         = Intel open-source Mesa driver
+	driverInfo         = Mesa 20.0.0-devel - padoka PPA
+	conformanceVersion = 1.1.2.0
+
+VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
+------------------------------------------------
+	minImportedHostPointerAlignment = 0x00001000
+
+VkPhysicalDeviceFloatControlsPropertiesKHR:
+-------------------------------------------
+	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE
+	shaderSignedZeroInfNanPreserveFloat16 = true
+	shaderSignedZeroInfNanPreserveFloat32 = true
+	shaderSignedZeroInfNanPreserveFloat64 = true
+	shaderDenormPreserveFloat16           = false
+	shaderDenormPreserveFloat32           = true
+	shaderDenormPreserveFloat64           = true
+	shaderDenormFlushToZeroFloat16        = false
+	shaderDenormFlushToZeroFloat32        = true
+	shaderDenormFlushToZeroFloat64        = true
+	shaderRoundingModeRTEFloat16          = true
+	shaderRoundingModeRTEFloat32          = true
+	shaderRoundingModeRTEFloat64          = true
+	shaderRoundingModeRTZFloat16          = true
+	shaderRoundingModeRTZFloat32          = true
+	shaderRoundingModeRTZFloat64          = true
+
+VkPhysicalDeviceIDProperties:
+-----------------------------
+	deviceUUID      = 53ebc251-e120-8086-bc6b-0661980e7117
+	driverUUID      = c86285c6-ba40-edae-4704-6e5f0bb5579b
+	deviceNodeMask  = 0
+	deviceLUIDValid = false
+
+VkPhysicalDeviceInlineUniformBlockPropertiesEXT:
+------------------------------------------------
+	maxInlineUniformBlockSize                               = 4096
+	maxPerStageDescriptorInlineUniformBlocks                = 32
+	maxPerStageDescriptorUpdateAfterBindInlineUniformBlocks = 32
+	maxDescriptorSetInlineUniformBlocks                     = 32
+	maxDescriptorSetUpdateAfterBindInlineUniformBlocks      = 32
+
+VkPhysicalDeviceLineRasterizationPropertiesEXT:
+-----------------------------------------------
+	lineSubPixelPrecisionBits = 4
+
+VkPhysicalDeviceMaintenance3Properties:
+---------------------------------------
+	maxPerSetDescriptors    = 1024
+	maxMemoryAllocationSize = 0x80000000
+
+VkPhysicalDeviceMultiviewProperties:
+------------------------------------
+	maxMultiviewViewCount     = 16
+	maxMultiviewInstanceIndex = 268435455
+
+VkPhysicalDevicePCIBusInfoPropertiesEXT:
+----------------------------------------
+	pciDomain   = 0
+	pciBus      = 0
+	pciDevice   = 2
+	pciFunction = 0
+
+VkPhysicalDevicePointClippingProperties:
+----------------------------------------
+	pointClippingBehavior = POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY
+
+VkPhysicalDeviceProtectedMemoryProperties:
+------------------------------------------
+	protectedNoFault = false
+
+VkPhysicalDevicePushDescriptorPropertiesKHR:
+--------------------------------------------
+	maxPushDescriptors = 32
+
+VkPhysicalDeviceSubgroupProperties:
+-----------------------------------
+	subgroupSize              = 32
+	supportedStages: count = 8
+		SHADER_STAGE_VERTEX_BIT
+		SHADER_STAGE_TESSELLATION_CONTROL_BIT
+		SHADER_STAGE_TESSELLATION_EVALUATION_BIT
+		SHADER_STAGE_GEOMETRY_BIT
+		SHADER_STAGE_FRAGMENT_BIT
+		SHADER_STAGE_COMPUTE_BIT
+		SHADER_STAGE_ALL_GRAPHICS
+		SHADER_STAGE_ALL
+	supportedOperations: count = 8
+		SUBGROUP_FEATURE_BASIC_BIT
+		SUBGROUP_FEATURE_VOTE_BIT
+		SUBGROUP_FEATURE_ARITHMETIC_BIT
+		SUBGROUP_FEATURE_BALLOT_BIT
+		SUBGROUP_FEATURE_SHUFFLE_BIT
+		SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT
+		SUBGROUP_FEATURE_CLUSTERED_BIT
+		SUBGROUP_FEATURE_QUAD_BIT
+	quadOperationsInAllStages = true
+
+VkPhysicalDeviceSubgroupSizeControlPropertiesEXT:
+-------------------------------------------------
+	minSubgroupSize              = 8
+	maxSubgroupSize              = 32
+	maxComputeWorkgroupSubgroups = 56
+	requiredSubgroupSizeStages: count = 2
+		SHADER_STAGE_COMPUTE_BIT
+		SHADER_STAGE_ALL
+
+VkPhysicalDeviceTexelBufferAlignmentPropertiesEXT:
+--------------------------------------------------
+	storageTexelBufferOffsetAlignmentBytes       = 0x00000010
+	storageTexelBufferOffsetSingleTexelAlignment = true
+	uniformTexelBufferOffsetAlignmentBytes       = 0x00000001
+	uniformTexelBufferOffsetSingleTexelAlignment = false
+
+VkPhysicalDeviceTimelineSemaphorePropertiesKHR:
+-----------------------------------------------
+	maxTimelineSemaphoreValueDifference = 18446744073709551615
+
+VkPhysicalDeviceTransformFeedbackPropertiesEXT:
+-----------------------------------------------
+	maxTransformFeedbackStreams                = 4
+	maxTransformFeedbackBuffers                = 4
+	maxTransformFeedbackBufferSize             = 0x100000000
+	maxTransformFeedbackStreamDataSize         = 512
+	maxTransformFeedbackBufferDataSize         = 512
+	maxTransformFeedbackBufferDataStride       = 2048
+	transformFeedbackQueries                   = true
+	transformFeedbackStreamsLinesTriangles     = false
+	transformFeedbackRasterizationStreamSelect = false
+	transformFeedbackDraw                      = true
+
+VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
+----------------------------------------------------
+	maxVertexAttribDivisor = 268435455
+
+
+Device Extensions: count = 72
+-----------------------------
+	VK_EXT_buffer_device_address              : extension revision 1
+	VK_EXT_calibrated_timestamps              : extension revision 1
+	VK_EXT_conditional_rendering              : extension revision 1
+	VK_EXT_depth_clip_enable                  : extension revision 1
+	VK_EXT_display_control                    : extension revision 1
+	VK_EXT_external_memory_dma_buf            : extension revision 1
+	VK_EXT_external_memory_host               : extension revision 1
+	VK_EXT_global_priority                    : extension revision 1
+	VK_EXT_host_query_reset                   : extension revision 1
+	VK_EXT_index_type_uint8                   : extension revision 1
+	VK_EXT_inline_uniform_block               : extension revision 1
+	VK_EXT_line_rasterization                 : extension revision 1
+	VK_EXT_memory_budget                      : extension revision 1
+	VK_EXT_pci_bus_info                       : extension revision 2
+	VK_EXT_pipeline_creation_feedback         : extension revision 1
+	VK_EXT_scalar_block_layout                : extension revision 1
+	VK_EXT_separate_stencil_usage             : extension revision 1
+	VK_EXT_shader_demote_to_helper_invocation : extension revision 1
+	VK_EXT_shader_subgroup_ballot             : extension revision 1
+	VK_EXT_shader_subgroup_vote               : extension revision 1
+	VK_EXT_shader_viewport_index_layer        : extension revision 1
+	VK_EXT_subgroup_size_control              : extension revision 2
+	VK_EXT_texel_buffer_alignment             : extension revision 1
+	VK_EXT_transform_feedback                 : extension revision 1
+	VK_EXT_vertex_attribute_divisor           : extension revision 3
+	VK_EXT_ycbcr_image_arrays                 : extension revision 1
+	VK_GOOGLE_decorate_string                 : extension revision 1
+	VK_GOOGLE_hlsl_functionality1             : extension revision 1
+	VK_KHR_16bit_storage                      : extension revision 1
+	VK_KHR_8bit_storage                       : extension revision 1
+	VK_KHR_bind_memory2                       : extension revision 1
+	VK_KHR_buffer_device_address              : extension revision 1
+	VK_KHR_create_renderpass2                 : extension revision 1
+	VK_KHR_dedicated_allocation               : extension revision 1
+	VK_KHR_depth_stencil_resolve              : extension revision 1
+	VK_KHR_descriptor_update_template         : extension revision 1
+	VK_KHR_device_group                       : extension revision 1
+	VK_KHR_draw_indirect_count                : extension revision 1
+	VK_KHR_driver_properties                  : extension revision 1
+	VK_KHR_external_fence                     : extension revision 1
+	VK_KHR_external_fence_fd                  : extension revision 1
+	VK_KHR_external_memory                    : extension revision 1
+	VK_KHR_external_memory_fd                 : extension revision 1
+	VK_KHR_external_semaphore                 : extension revision 1
+	VK_KHR_external_semaphore_fd              : extension revision 1
+	VK_KHR_get_memory_requirements2           : extension revision 1
+	VK_KHR_image_format_list                  : extension revision 1
+	VK_KHR_imageless_framebuffer              : extension revision 1
+	VK_KHR_incremental_present                : extension revision 1
+	VK_KHR_maintenance1                       : extension revision 1
+	VK_KHR_maintenance2                       : extension revision 1
+	VK_KHR_maintenance3                       : extension revision 1
+	VK_KHR_multiview                          : extension revision 1
+	VK_KHR_pipeline_executable_properties     : extension revision 1
+	VK_KHR_push_descriptor                    : extension revision 1
+	VK_KHR_relaxed_block_layout               : extension revision 1
+	VK_KHR_sampler_mirror_clamp_to_edge       : extension revision 1
+	VK_KHR_sampler_ycbcr_conversion           : extension revision 1
+	VK_KHR_separate_depth_stencil_layouts     : extension revision 1
+	VK_KHR_shader_clock                       : extension revision 1
+	VK_KHR_shader_draw_parameters             : extension revision 1
+	VK_KHR_shader_float16_int8                : extension revision 1
+	VK_KHR_shader_float_controls              : extension revision 1
+	VK_KHR_shader_subgroup_extended_types     : extension revision 1
+	VK_KHR_spirv_1_4                          : extension revision 1
+	VK_KHR_storage_buffer_storage_class       : extension revision 1
+	VK_KHR_swapchain                          : extension revision 70
+	VK_KHR_timeline_semaphore                 : extension revision 1
+	VK_KHR_uniform_buffer_standard_layout     : extension revision 1
+	VK_KHR_variable_pointers                  : extension revision 1
+	VK_KHR_vulkan_memory_model                : extension revision 3
+	VK_NV_compute_shader_derivatives          : extension revision 1
+
+VkQueueFamilyProperties:
+========================
+	queueProperties[0]:
+	-------------------
+		minImageTransferGranularity = (1,1,1)
+		queueCount                  = 1
+		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER
+		timestampValidBits          = 36
+		present support:
+			VK_KHR_xcb_surface  = true
+			VK_KHR_xlib_surface = true
+
+VkPhysicalDeviceMemoryProperties:
+=================================
+memoryHeaps: count = 1
+	memoryHeaps[0]:
+		size   = 6025138176 (0x167205000) (5.61 GiB)
+		budget = 6025117696 (0x167200000) (5.61 GiB)
+		usage  = 0 (0x00000000) (0.00 B)
+		flags: count = 1
+			MEMORY_HEAP_DEVICE_LOCAL_BIT
+memoryTypes: count = 1
+	memoryTypes[0]:
+		heapIndex     = 0
+		propertyFlags = 0x000f: count = 4
+			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+			MEMORY_PROPERTY_HOST_VISIBLE_BIT
+			MEMORY_PROPERTY_HOST_COHERENT_BIT
+			MEMORY_PROPERTY_HOST_CACHED_BIT
+		usable for:
+			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_S8_UINT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
+			IMAGE_TILING_LINEAR: color images
+
+VkPhysicalDeviceFeatures:
+=========================
+	robustBufferAccess                      = true
+	fullDrawIndexUint32                     = true
+	imageCubeArray                          = true
+	independentBlend                        = true
+	geometryShader                          = true
+	tessellationShader                      = true
+	sampleRateShading                       = true
+	dualSrcBlend                            = true
+	logicOp                                 = true
+	multiDrawIndirect                       = true
+	drawIndirectFirstInstance               = true
+	depthClamp                              = true
+	depthBiasClamp                          = true
+	fillModeNonSolid                        = true
+	depthBounds                             = false
+	wideLines                               = true
+	largePoints                             = true
+	alphaToOne                              = true
+	multiViewport                           = true
+	samplerAnisotropy                       = true
+	textureCompressionETC2                  = true
+	textureCompressionASTC_LDR              = false
+	textureCompressionBC                    = true
+	occlusionQueryPrecise                   = true
+	pipelineStatisticsQuery                 = true
+	vertexPipelineStoresAndAtomics          = true
+	fragmentStoresAndAtomics                = true
+	shaderTessellationAndGeometryPointSize  = true
+	shaderImageGatherExtended               = true
+	shaderStorageImageExtendedFormats       = true
+	shaderStorageImageMultisample           = false
+	shaderStorageImageReadWithoutFormat     = false
+	shaderStorageImageWriteWithoutFormat    = true
+	shaderUniformBufferArrayDynamicIndexing = true
+	shaderSampledImageArrayDynamicIndexing  = true
+	shaderStorageBufferArrayDynamicIndexing = true
+	shaderStorageImageArrayDynamicIndexing  = true
+	shaderClipDistance                      = true
+	shaderCullDistance                      = true
+	shaderFloat64                           = true
+	shaderInt64                             = true
+	shaderInt16                             = true
+	shaderResourceResidency                 = false
+	shaderResourceMinLod                    = false
+	sparseBinding                           = false
+	sparseResidencyBuffer                   = false
+	sparseResidencyImage2D                  = false
+	sparseResidencyImage3D                  = false
+	sparseResidency2Samples                 = false
+	sparseResidency4Samples                 = false
+	sparseResidency8Samples                 = false
+	sparseResidency16Samples                = false
+	sparseResidencyAliased                  = false
+	variableMultisampleRate                 = true
+	inheritedQueries                        = true
+
+VkPhysicalDevice16BitStorageFeatures:
+-------------------------------------
+	storageBuffer16BitAccess           = true
+	uniformAndStorageBuffer16BitAccess = true
+	storagePushConstant16              = true
+	storageInputOutput16               = false
+
+VkPhysicalDevice8BitStorageFeaturesKHR:
+---------------------------------------
+	storageBuffer8BitAccess           = true
+	uniformAndStorageBuffer8BitAccess = true
+	storagePushConstant8              = true
+
+VkPhysicalDeviceBufferDeviceAddressFeaturesKHR:
+-----------------------------------------------
+	bufferDeviceAddress              = true
+	bufferDeviceAddressCaptureReplay = true
+	bufferDeviceAddressMultiDevice   = false
+
+VkPhysicalDeviceBufferDeviceAddressFeaturesEXT:
+-----------------------------------------------
+	bufferDeviceAddress              = true
+	bufferDeviceAddressCaptureReplay = false
+	bufferDeviceAddressMultiDevice   = false
+
+VkPhysicalDeviceConditionalRenderingFeaturesEXT:
+------------------------------------------------
+	conditionalRendering          = true
+	inheritedConditionalRendering = true
+
+VkPhysicalDeviceDepthClipEnableFeaturesEXT:
+-------------------------------------------
+	depthClipEnable = true
+
+VkPhysicalDeviceHostQueryResetFeaturesEXT:
+------------------------------------------
+	hostQueryReset = true
+
+VkPhysicalDeviceImagelessFramebufferFeaturesKHR:
+------------------------------------------------
+	imagelessFramebuffer = true
+
+VkPhysicalDeviceIndexTypeUint8FeaturesEXT:
+------------------------------------------
+	indexTypeUint8 = true
+
+VkPhysicalDeviceInlineUniformBlockFeaturesEXT:
+----------------------------------------------
+	inlineUniformBlock                                 = true
+	descriptorBindingInlineUniformBlockUpdateAfterBind = true
+
+VkPhysicalDeviceLineRasterizationFeaturesEXT:
+---------------------------------------------
+	rectangularLines         = true
+	bresenhamLines           = true
+	smoothLines              = true
+	stippledRectangularLines = false
+	stippledBresenhamLines   = true
+	stippledSmoothLines      = false
+
+VkPhysicalDeviceMultiviewFeatures:
+----------------------------------
+	multiview                   = true
+	multiviewGeometryShader     = true
+	multiviewTessellationShader = true
+
+VkPhysicalDevicePipelineExecutablePropertiesFeaturesKHR:
+--------------------------------------------------------
+	pipelineExecutableInfo = true
+
+VkPhysicalDeviceProtectedMemoryFeatures:
+----------------------------------------
+	protectedMemory = false
+
+VkPhysicalDeviceSamplerYcbcrConversionFeatures:
+-----------------------------------------------
+	samplerYcbcrConversion = true
+
+VkPhysicalDeviceScalarBlockLayoutFeaturesEXT:
+---------------------------------------------
+	scalarBlockLayout = true
+
+VkPhysicalDeviceSeparateDepthStencilLayoutsFeaturesKHR:
+-------------------------------------------------------
+	separateDepthStencilLayouts = true
+
+VkPhysicalDeviceShaderClockFeaturesKHR:
+---------------------------------------
+	shaderSubgroupClock = true
+	shaderDeviceClock   = false
+
+VkPhysicalDeviceShaderDemoteToHelperInvocationFeaturesEXT:
+----------------------------------------------------------
+	shaderDemoteToHelperInvocation = true
+
+VkPhysicalDeviceShaderDrawParametersFeatures:
+---------------------------------------------
+	shaderDrawParameters = true
+
+VkPhysicalDeviceFloat16Int8FeaturesKHR:
+---------------------------------------
+	shaderFloat16 = true
+	shaderInt8    = true
+
+VkPhysicalDeviceShaderSubgroupExtendedTypesFeaturesKHR:
+-------------------------------------------------------
+	shaderSubgroupExtendedTypes = true
+
+VkPhysicalDeviceSubgroupSizeControlFeaturesEXT:
+-----------------------------------------------
+	subgroupSizeControl  = true
+	computeFullSubgroups = true
+
+VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT:
+------------------------------------------------
+	texelBufferAlignment = true
+
+VkPhysicalDeviceTimelineSemaphoreFeaturesKHR:
+---------------------------------------------
+	timelineSemaphore = true
+
+VkPhysicalDeviceTransformFeedbackFeaturesEXT:
+---------------------------------------------
+	transformFeedback = true
+	geometryStreams   = true
+
+VkPhysicalDeviceUniformBufferStandardLayoutFeaturesKHR:
+-------------------------------------------------------
+	uniformBufferStandardLayout = true
+
+VkPhysicalDeviceVariablePointersFeatures:
+-----------------------------------------
+	variablePointersStorageBuffer = true
+	variablePointers              = true
+
+VkPhysicalDeviceVertexAttributeDivisorFeaturesEXT:
+--------------------------------------------------
+	vertexAttributeInstanceRateDivisor     = true
+	vertexAttributeInstanceRateZeroDivisor = true
+
+VkPhysicalDeviceVulkanMemoryModelFeaturesKHR:
+---------------------------------------------
+	vulkanMemoryModel                             = true
+	vulkanMemoryModelDeviceScope                  = true
+	vulkanMemoryModelAvailabilityVisibilityChains = true
+
+VkPhysicalDeviceYcbcrImageArraysFeaturesEXT:
+--------------------------------------------
+	ycbcrImageArrays = true
+
+

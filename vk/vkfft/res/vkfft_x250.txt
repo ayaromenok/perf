@@ -1,0 +1,20 @@
+./Vulkan_FFT
+System: 64x64x1 Buffer: 0 MB avg_time_per_step: 0.098 ms std_error 0.005 batch: 1000
+System: 256x256x1 Buffer: 0 MB avg_time_per_step: 0.377 ms std_error 0.007 batch: 1000
+System: 1024x256x1 Buffer: 1 MB avg_time_per_step: 1.209 ms std_error 0.029 batch: 1000
+System: 512x512x1 Buffer: 1 MB avg_time_per_step: 0.989 ms std_error 0.019 batch: 1000
+System: 1024x1024x1 Buffer: 4 MB avg_time_per_step: 7.582 ms std_error 0.050 batch: 1000
+System: 4096x256x1 Buffer: 4 MB avg_time_per_step: 5.369 ms std_error 0.017 batch: 1000
+System: 2048x1024x1 Buffer: 8 MB avg_time_per_step: 15.834 ms std_error 0.040 batch: 511
+System: 4096x2048x1 Buffer: 32 MB avg_time_per_step: 52.975 ms std_error 0.356 batch: 127
+System: 4096x4096x1 Buffer: 64 MB avg_time_per_step: 99.736 ms std_error 0.248 batch: 63
+System: 32x32x32 Buffer: 0 MB avg_time_per_step: 0.365 ms std_error 0.005 batch: 1000
+System: 64x64x64 Buffer: 1 MB avg_time_per_step: 1.423 ms std_error 0.007 batch: 1000
+System: 256x256x32 Buffer: 8 MB avg_time_per_step: 13.620 ms std_error 0.021 batch: 508
+System: 1024x256x32 Buffer: 32 MB avg_time_per_step: 54.084 ms std_error 0.091 batch: 127
+System: 256x256x256 Buffer: 64 MB avg_time_per_step: 109.324 ms std_error 0.170 batch: 63
+System: 2048x1024x8 Buffer: 64 MB avg_time_per_step: 151.492 ms std_error 0.403 batch: 63
+System: 512x512x128 Buffer: 128 MB avg_time_per_step: 208.259 ms std_error 0.213 batch: 31
+System: 2048x256x256 Buffer: 512 MB avg_time_per_step: 938.113 ms std_error 1.190 batch: 7
+System: 4096x4096x8 Buffer: 512 MB avg_time_per_step: 999.649 ms std_error 0.952 batch: 7
+Benchmark score: 606

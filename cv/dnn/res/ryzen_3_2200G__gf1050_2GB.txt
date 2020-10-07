@@ -1,0 +1,34 @@
+
+test_detail.xml
+
+               Name of Test                   Median  
+YOLOv4::DNNTestNetwork::CUDA/CUDA            50.92 ms 
+YOLOv4::DNNTestNetwork::CUDA/CUDA_FP16      2804.25 ms
+YOLOv4::DNNTestNetwork::OCV/CPU             503.08 ms 
+YOLOv4::DNNTestNetwork::OCV/OCL             1025.62 ms
+YOLOv4::DNNTestNetwork::OCV/OCL_FP16        1023.83 ms
+YOLOv4::DNNTestNetwork::VKCOM/VULKAN        3295.90 ms
+YOLOv4_tiny::DNNTestNetwork::CUDA/CUDA       6.14 ms  
+YOLOv4_tiny::DNNTestNetwork::CUDA/CUDA_FP16 389.77 ms 
+YOLOv4_tiny::DNNTestNetwork::OCV/CPU         45.64 ms 
+YOLOv4_tiny::DNNTestNetwork::OCV/OCL        107.48 ms 
+YOLOv4_tiny::DNNTestNetwork::OCV/OCL_FP16   107.55 ms 
+YOLOv4_tiny::DNNTestNetwork::VKCOM/VULKAN   418.13 ms 
+YOLOv4_tiny_1::Layer_Slice::CUDA/CUDA        0.43 ms  
+YOLOv4_tiny_1::Layer_Slice::CUDA/CUDA_FP16   0.44 ms  
+YOLOv4_tiny_1::Layer_Slice::OCV/CPU          0.03 ms  
+YOLOv4_tiny_1::Layer_Slice::OCV/OCL          0.67 ms  
+YOLOv4_tiny_1::Layer_Slice::OCV/OCL_FP16     0.67 ms  
+YOLOv4_tiny_1::Layer_Slice::VKCOM/VULKAN     0.03 ms  
+YOLOv4_tiny_2::Layer_Slice::CUDA/CUDA        0.23 ms  
+YOLOv4_tiny_2::Layer_Slice::CUDA/CUDA_FP16   0.24 ms  
+YOLOv4_tiny_2::Layer_Slice::OCV/CPU          0.02 ms  
+YOLOv4_tiny_2::Layer_Slice::OCV/OCL          0.42 ms  
+YOLOv4_tiny_2::Layer_Slice::OCV/OCL_FP16     0.42 ms  
+YOLOv4_tiny_2::Layer_Slice::VKCOM/VULKAN     0.02 ms  
+YOLOv4_tiny_3::Layer_Slice::CUDA/CUDA        0.12 ms  
+YOLOv4_tiny_3::Layer_Slice::CUDA/CUDA_FP16   0.13 ms  
+YOLOv4_tiny_3::Layer_Slice::OCV/CPU          0.01 ms  
+YOLOv4_tiny_3::Layer_Slice::OCV/OCL          0.37 ms  
+YOLOv4_tiny_3::Layer_Slice::OCV/OCL_FP16     0.37 ms  
+YOLOv4_tiny_3::Layer_Slice::VKCOM/VULKAN     0.01 ms  

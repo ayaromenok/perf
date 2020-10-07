@@ -1,0 +1,3 @@
+ - `opencv_perf_test` used
+ - backend is CPU, OpenCL/OpenCL_fp16, CUDA/CUDA_fp16, Vulkan
+ - YOLOv4(full and tiny) used for test on begining

@@ -1,5 +1,6 @@
  - https://github.com/DTolm/VkFFT
  - used version from 20200929 (same as Phoronix Test Suite) - see `src` 
+ - to build on arm system https://github.com/KhronosGroup/glslang required
 
 ### Results
 
